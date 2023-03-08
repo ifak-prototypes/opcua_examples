@@ -25,16 +25,17 @@ classifiers = [
 ]
 
 dependencies = [
-  "opcua",
   "jupyter",
+  "matplotlib",
   "numpy",
-  "matplotlib"
+  "opcua",
+  "pyOpenSSL"
 ]
 
 
 [project.urls]
-"Homepage" = "https://github.com/<user>/<repo>"
-"Source" = "https://github.com/<user>/<repo>"
+"Homepage" = "https://github.com/Kefaku/opcua-example>"
+"Source" = "https://github.com/Kefaku/opcua-example"
 
 # The following would provide a command line executable called `sample`
 # which executes the function `main` from this package when invoked.
