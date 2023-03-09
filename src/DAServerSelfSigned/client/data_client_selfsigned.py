@@ -21,7 +21,8 @@ cert = load_certificate(FILETYPE_PEM, open(
         os.path.realpath(__file__))),
 
         'selfsigned.crt')
-    ).read())
+    ).read()
+     .encode('utf-8'))
 
 try:
     while True:

@@ -17,7 +17,7 @@ myvar.set_writable()    # Set MyVariable to be writable by clients
 server.start()
 
 try:
-    count = []
+    count: list[int] = []
     while True:
         time.sleep(1)
         if len(count) >= 100:

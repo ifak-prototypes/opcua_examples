@@ -12,7 +12,7 @@ server_url = "opc.tcp://localhost:4840/freeopcua/server/"  # open for everybody:
 
 # here is the function, which we want to publish over OPC UA
 @uamethod
-def multiply(parent, x, y):
+def multiply(parent, x: float, y:float):
     print("multiply method call with parameters: ", x, y)
     return x * y
 

@@ -1,8 +1,8 @@
 from opcua import Client
 
 # configuration parameters of the server
-namespace = "http://www.ifak.eu/opcua/test-api"
-server_url = "opc.tcp://localhost:4840/freeopcua/server/"
+namespace: str = "http://www.ifak.eu/opcua/test-api"
+server_url: str = "opc.tcp://localhost:4840/freeopcua/server/"
 
 # instantiate the client
 proxy = Client(server_url)

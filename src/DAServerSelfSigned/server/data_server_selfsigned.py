@@ -30,7 +30,6 @@ key = load_privatekey(FILETYPE_PEM, open(
     ).read())
 
 try:
-    count = []
     while True:
         time.sleep(1)
         x = random.randint(1,10)
