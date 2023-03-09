@@ -32,6 +32,12 @@ dependencies = [
   "pyOpenSSL"
 ]
 
+[project.optional-dependencies]
+dev = [
+  "mypy",
+  "sphinx"
+]
+
 
 [project.urls]
 "Homepage" = "https://github.com/Kefaku/opcua-example>"
