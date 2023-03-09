@@ -4,7 +4,7 @@
 
 * [client access to server method](./src/MethodsServerSimple)
 * [simple server/client data transmission](./src/DAServerSimple)
-* [client display for server capacity utilisation](./src/DAServerData)
+* [client display for server capacity utilisation (cpu/ram/battery)](./src/DAServerData)
 * [example of communication using self-signed certificate](./src/DAServerSelfSigned)
 
 Each project consists of a server- and a client-script.
