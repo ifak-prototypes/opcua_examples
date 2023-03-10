@@ -34,8 +34,7 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-  "mypy",
-  "sphinx"
+  "mypy"
 ]
 
 
