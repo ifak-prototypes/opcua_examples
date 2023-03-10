@@ -5,7 +5,7 @@ setup(
     version='1.0.0',
     description='A sample opcua project',
     url='https://github.com/Kefaku/opcua-example',
-    install_requires=['opcua', 'jupyter', 'numpy', 'matplotlib', 'pyOpenSSL'],
+    install_requires=['opcua', 'jupyter', 'matplotlib', 'pyOpenSSL'],
     extras_require={
         'dev': ['mypy']
     }

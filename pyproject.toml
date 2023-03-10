@@ -27,7 +27,6 @@ classifiers = [
 dependencies = [
   "jupyter",
   "matplotlib",
-  "numpy",
   "opcua",
   "pyOpenSSL"
 ]
