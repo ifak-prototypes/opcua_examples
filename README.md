@@ -19,7 +19,7 @@
 * data is verified by client using:
   * signature sent by server along with the data
   * self-signed certificate (generated using OpenSSL)
-  * [PyOpenSSL](https://github.com/msabramo/pyOpenSSL)
+  * [PyOpenSSL](https://github.com/pyca/pyopenssl)
 
 ## The projects use:
 
