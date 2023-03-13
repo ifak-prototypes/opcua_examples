@@ -33,7 +33,9 @@ dependencies = [
 
 [project.optional-dependencies]
 dev = [
-  "mypy"
+  "devtools",
+  "mypy",
+  "Pygments"
 ]
 
 
