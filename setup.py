@@ -7,6 +7,6 @@ setup(
     url='https://github.com/Kefaku/opcua-example',
     install_requires=['devtools', 'opcua', 'jupyter', 'matplotlib', 'pygments', 'pyOpenSSL'],
     extras_require={
-        'dev': ['mypy']
+        'dev': ['devtools', 'mypy', 'Pygments']
     }
 )
