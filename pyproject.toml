@@ -25,9 +25,11 @@ classifiers = [
 ]
 
 dependencies = [
+  "devtools",
   "jupyter",
   "matplotlib",
   "opcua",
+  "pygments",
   "pyOpenSSL"
 ]
 
