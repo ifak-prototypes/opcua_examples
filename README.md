@@ -77,6 +77,6 @@ In order to establish basic security, we designed an [example of communication u
 ## Planned improvements
 
 - [ ] In the security example, we currently use a self-made approach for doing the work. We will provide an update soon, which secures the connection by use of the FreeOpcUa framework technology (see [FreeOpcUa example](https://github.com/FreeOpcUa/python-opcua/blob/master/examples/server-with-encryption.py)).
-- [ ] We want integrate a launch.json file for those users who use Visual Studio Code. There we will configure start scripts for running the clients and servers. This may also simplify debugging of the software.
+- [ ] We want to integrate a launch.json file for those users who use Visual Studio Code. There we will configure start scripts for running the clients and servers. This may also simplify debugging of the software.
 
 
